@@ -58,3 +58,15 @@ Write a program that takes a string `S` as input and outputs the most frequent a
 | 2          | `999999aa` | `'9' appears 6 times` |
 | 3          | `()()()+=` | `No alphanumeric characters in the input.` |
 | 4          | `z123456`  | `'z' appears 1 time` |
+
+### Problem 6: Delete extra spaces
+
+Write a program that accepts a string `S` as input and removes any extra spaces. A space is considered extra if it directly next to another space or at the begining or at the end. 
+
+
+| Test Cases | **Input** | **Output** |
+|------------|-----------|------------|
+| 1          | `Kuwait   University   ` | `Kuwait University` |
+| 2          | `   Talk  is  cheap. Show  me  the  code.  – Linus Torvalds    ` | `Talk is cheap. Show me the code. – Linus Torvalds` |
+| 3          | `Delete extra Spaces   ` | `Delete extra Spaces` |
+| 4          | `Mistakes are proof you're trying.`  | `'z' appears 1 time` |
