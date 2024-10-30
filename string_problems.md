@@ -1,6 +1,4 @@
-# Programming Exercises
-
-## String Problems
+# String Problems
 
 ### Problem 1: Palindrome (case-sensitive)
 
