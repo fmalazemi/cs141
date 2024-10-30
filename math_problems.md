@@ -61,6 +61,7 @@ Write a program that reads two positive integers `n, m` as input and output thei
 ### Problem 7: Quadratic Equation
 Write a program that solves a quadratic equation `ax^2 + bx + c = 0` where `b > a*c`. 
 Your program reads three positive integers `a, b, c` and prints all possible roots of `ax^2 + bx + c = 0`. 
+
 Hint: (https://www.youtube.com/results?search_query=Quadratic+Equation)
 
  
