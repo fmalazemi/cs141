@@ -49,7 +49,7 @@ A perfect number is a number that is equal to the sum of its proper divisors (ex
 | 4          | 10000     | 6 28 496 8128            |
 
 ### Problem 6: Greatest common divisor
-Write a program that takes two integers as input and output their greatest common divisor.
+Write a program that takes two positive integers `n, m` as input and output their greatest common divisor.
 
 | Test Cases | **Input** | **Output**               |
 |------------|-----------|--------------------------|
