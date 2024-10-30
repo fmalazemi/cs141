@@ -59,9 +59,22 @@ Write a program that takes a string `S` as input and outputs the most frequent a
 | 3          | `()()()+=` | `No alphanumeric characters in the input.` |
 | 4          | `z123456`  | `'z' appears 1 time` |
 
-### Problem 6: Delete extra spaces
+### Problem 7: Delete *ALL* spaces
 
-Write a program that accepts a string `S` as input and removes any extra spaces. A space is considered extra if it directly next to another space or at the begining or at the end. 
+Write a program that accepts a string `S` as input and output `S` without spaces.
+
+
+| Test Cases | **Input** | **Output** |
+|------------|-----------|------------|
+| 1          | `Kuwait   University   ` | `KuwaitUniversity` |
+| 2          | `   Talk  is  cheap. Show  me  the  code.  – Linus Torvalds    ` | `Talkischeap.Showmethecode.–LinusTorvalds` |
+| 3          | `P R O G R A M M I N G` | `PROGRAMMING` |
+| 4          | `Change_is_the_only_constant.`  | `Change_is_the_only_constant.` |
+
+
+### Problem 7: Delete *EXTRA* spaces
+
+Write a program that accepts a string `S` as input and output `S` without extra spaces. A space is considered extra if it directly next to another space or at the begining or at the end. 
 
 
 | Test Cases | **Input** | **Output** |
@@ -69,4 +82,4 @@ Write a program that accepts a string `S` as input and removes any extra spaces.
 | 1          | `Kuwait   University   ` | `Kuwait University` |
 | 2          | `   Talk  is  cheap. Show  me  the  code.  – Linus Torvalds    ` | `Talk is cheap. Show me the code. – Linus Torvalds` |
 | 3          | `Delete extra Spaces   ` | `Delete extra Spaces` |
-| 4          | `Mistakes are proof you're trying.`  | `'z' appears 1 time` |
+| 4          | `Mistakes are proof you're trying.`  | `Mistakes are proof you're trying.` |
