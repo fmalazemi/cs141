@@ -49,7 +49,7 @@ A perfect number is a number that is equal to the sum of its proper divisors (ex
 | 4          | 10000     | 6 28 496 8128            |
 
 ### Problem 6: Greatest common divisor
-Write a program that takes two positive integers `n, m` as input and output their greatest common divisor.
+Write a program that reads two positive integers `n, m` as input and output their greatest common divisor.
 
 | Test Cases | **Input** | **Output**               |
 |------------|-----------|--------------------------|
@@ -58,3 +58,9 @@ Write a program that takes two positive integers `n, m` as input and output thei
 | 3          | 512 960       | 64                     |
 | 4          | 13 49     | 1            |
 
+### Problem 7: Quadratic Equation
+Write a program that solves a quadratic equation `ax^2 + bx + c = 0` where `b > a*c`. 
+Your program reads three positive integers `a, b, c` and prints all possible roots of `ax^2 + bx + c = 0`. 
+Hint: (https://www.youtube.com/results?search_query=Quadratic+Equation)
+
+ 
