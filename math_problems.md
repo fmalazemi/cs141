@@ -1,7 +1,7 @@
 # Math Problems
 
-### Problem 1: Prime Numbers up to \(n\)
-Write a program that takes an integer \(n\) as input and prints all prime numbers up to \(n\).
+### Problem 1: Prime Numbers up to `n`
+Write a program that takes an integer `n` as input and prints all prime numbers up to `n`.
 
 | Test Cases | **Input** | **Output** |
 |------------|-----------|------------|
@@ -9,7 +9,7 @@ Write a program that takes an integer \(n\) as input and prints all prime number
 | 2          | 30        | 2 3 5 7 11 13 17 19 23 29 |
 
 ### Problem 2: Sum of Digits of an integer
-Write a program that takes an integer \(n\) as input and calculates the sum of its digits.
+Write a program that takes an integer `n` as input and calculates the sum of its digits.
 
 | Test Cases | **Input**   | **Output** |
 |------------|-------------|------------|
@@ -18,8 +18,8 @@ Write a program that takes an integer \(n\) as input and calculates the sum of i
 | 3          | 123456789   | 45         |
 | 4          | 8           | 8          |
 
-### Problem 3: Print All Divisors of \(n\)
-Write a program that takes an integer \(n\) as input and prints all divisors of \(n\).
+### Problem 3: Print All Divisors of `n`
+Write a program that takes an integer `n` as input and prints all divisors of `n`.
 
 | Test Cases | **Input** | **Output** |
 |------------|-----------|------------|
@@ -29,7 +29,7 @@ Write a program that takes an integer \(n\) as input and prints all divisors of 
 | 4          | 14        | 1 2 7 14  |
 
 ### Problem 4: Perfect Number
-A perfect number is a number that is equal to the sum of its proper divisors (excluding itself). Write a program that takes an integer \(n\) and checks if a number is a perfect number.
+A perfect number is a number that is equal to the sum of its proper divisors (excluding itself). Write a program that takes an integer `n` and checks if a number is a perfect number.
 
 | Test Cases | **Input** | **Output**         |
 |------------|-----------|--------------------|
@@ -38,8 +38,8 @@ A perfect number is a number that is equal to the sum of its proper divisors (ex
 | 3          | 496       | Perfect Number     |
 | 4          | 1         | Not Perfect Number |
 
-### Problem 5: All Perfect Numbers up to \(n\)
-A perfect number is a number that is equal to the sum of its proper divisors (excluding itself). Write a program that takes an integer \(n\) and outputs all perfect numbers up to \(n\).
+### Problem 5: All Perfect Numbers up to `n`
+A perfect number is a number that is equal to the sum of its proper divisors (excluding itself). Write a program that takes an integer `n` and outputs all perfect numbers up to `n`.
 
 | Test Cases | **Input** | **Output**               |
 |------------|-----------|--------------------------|
@@ -47,3 +47,14 @@ A perfect number is a number that is equal to the sum of its proper divisors (ex
 | 2          | 1200      | 6 28 496                 |
 | 3          | 151       | 6 28                     |
 | 4          | 10000     | 6 28 496 8128            |
+
+### Problem 6: Greatest common divisor
+Write a program that takes two integers as input and output their greatest common divisor.
+
+| Test Cases | **Input** | **Output**               |
+|------------|-----------|--------------------------|
+| 1          | 48 18         | 6                        |
+| 2          | 12 35      | 1                 |
+| 3          | 512 960       | 64                     |
+| 4          | 13 49     | 1            |
+
