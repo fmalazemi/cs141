@@ -83,3 +83,22 @@ Write a program that accepts a string `S` as input and output `S` without extra 
 | 2          | `   Talk  is  cheap. Show  me  the  code.  – Linus Torvalds    ` | `Talk is cheap. Show me the code. – Linus Torvalds` |
 | 3          | `Delete extra Spaces   ` | `Delete extra Spaces` |
 | 4          | `Mistakes are proof you're trying.`  | `Mistakes are proof you're trying.` |
+
+### Problem 8: Catagory of a character
+
+Write a program that takes a single character `c` as input and determines if `c` falls into one or more of the following categories: 
+  - Vowel (a, e, i, o, u, A, E, I, O, U)
+  - Digit (0-9)
+  - Uppercase letter (A-Z)
+  - Lowercase letter (a-z)
+  - Special char (if none of the above)
+
+| Test Cases | **Input** | **Output** |
+|------------|-----------|------------|
+| 1          | `C` | `An upper Case`  |
+| 2          | `7` | `A digit`  |
+| 3          | `U` | `A vowel and an upper case`  |
+| 4          | `$`  | `A special character`  |
+| 5          | `m`  | `A lower case`  |
+
+
