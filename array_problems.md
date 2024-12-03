@@ -9,7 +9,7 @@ Given an array of integer `A` of size `n`. Prints the average, min, max of `A`.
 | 2          | 0 -19 40 2 12        | 7 -19, 40 |
 
 
-### Problem 2: Print All Divisibles by `m`
+### Problem 2: Print integers Divisibles by `m` in Array `A`
 Given array of integer `A` of size `n` and an integer `m`. Prints all integers in `A` that are divisible by `m`. If no such integer is divisible by `m`, print -1. 
 
 | Test Cases | **Input** | **Output** |
