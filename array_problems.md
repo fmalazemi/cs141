@@ -39,4 +39,14 @@ Write a function that merges these two arrays `A,B` into a third sorted array `C
 | 1          | A={1, 2, 3, 4}, B={-54, 0, 4, 123}        | C={-54, 0, 1, 2, 3, 4, 123}    |
 | 2          | A={1,10, 100}, B={0, 5, 50, 500, 5000}        | C={0, 1, 5, 10, 50, 100, 500, 5000} |
 
+### Problem 5: Rotate Array
+Given an integer array `A` of size `n`. Write a function that Rotates `A`. 
+
+| Test Cases | **Input** | **Output** |
+|------------|-----------|------------|
+| 1          | A={1, 2, 3, 4} | A={4, 3, 2, 1}    |
+| 2          | A={6, 10, 1, 5, 33, 2, 0} | A={0, 2, 33, 5, 1, 10, 6} |
+
+
+
 
