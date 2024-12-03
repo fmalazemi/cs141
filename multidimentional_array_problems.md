@@ -1,4 +1,4 @@
-# Array Problems
+# Multidimentional Array Problems
 
 ### Problem 1: Calculate the average
 Write a program that takes array of integer `A` of size `n` as input and prints its average.
