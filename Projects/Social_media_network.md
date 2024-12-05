@@ -185,7 +185,8 @@ After submission, each group will present a demo to the TA.
 - Missing the presentation will result in a **ZERO** grade for the group.  
 
 ## **Grading Criteria**
-1. Presentation (60%)
+1. Presentation of all program features (60%)
 3. Code readability and comments (20%)
 4. Proper file handling and error management (10%)
 5. Creativity and extra features (10%)
+6. If you simply copy paste without understanding, your group will receive **ZERO** grade. 
