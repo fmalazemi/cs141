@@ -20,6 +20,7 @@ Formally, a social network graph is a representation where:
   
 ![Can not read Image](images/social_network_example.jpg)
 
+(source: https://www.scielo.org.mx/img/revistas/cys/v26n1//2007-9737-cys-26-01-311-gf1.jpg)
 
 
 
