@@ -2,16 +2,17 @@
 # **Project Title: Social Network Graph**
 
 ## **Objective**
-To implement a program in C++ that models a simple social network as a graph. Students will use basic data structures (arrays, vectors, or maps) and file I/O operations to manage and manipulate the graph. This project helps students apply key programming concepts like loops, conditionals, functions, and file handling.
+To implement a program in C++ that models a simple social network as a graph. The graph is represented as an **adjacency matrix**. Students will use basic data structures (e.g. arrays, multi-dimensional arrays,  vectors, etc) and file I/O operations to manage and manipulate the graph. 
+This project will prepare you for cs142 and will helps you to apply key programming concepts like loops, conditionals, functions, and file handling.
 
 ---
 
 ## **Project Description**
 
 A social network graph is a representation where:
-- **Nodes (vertices)** represent persons in the network.
+- **Nodes** represent persons in the network.
 - **Edges** represent friendships between persons.
-
+![Can not read Image](images/
 The program should allow the user to perform the following operations on the graph:
 
 ---
