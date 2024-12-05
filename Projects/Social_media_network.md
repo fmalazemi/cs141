@@ -1,20 +1,19 @@
 
-# **Project: Social Network Graph**
-
-## **Due date**: 23-12-2024
+# **Project: Social Network Graph** 
 
 ## **Objective**
   - **Program with many features**: To implement a program in C++ that models a simple social network as a graph. The graph is represented as an **adjacency matrix**. Students will use basic data structures (e.g. arrays, multi-dimensional arrays,  vectors, Maps etc) and file I/O operations to manage and manipulate the graph.
   - **CS142 Preparation**: This project will prepare you for CS142. Also, it will help you to deeply understand and apply key programming concepts such as loops, conditionals, functions, and file handling.
-  - **Group of 2**: You can choose to work on this project individually or in a group of two. Collaborating in a group allows you to share ideas, learn from each other, and solve problems more effectively. It also helps you develop teamwork skills, gain new perspectives, and achieve more than you could on your own.
+  - **Group work**: You can choose to work on this project individually or in a group of two. Collaborating in a group allows you to share ideas, learn from each other, and solve problems more effectively. It also helps you develop teamwork skills, gain new perspectives, and achieve more than you could on your own.
   - **Presentation**: You and your teammate will be required to present your work at the end of the project.
   - **Self-learning**: Self-learning builds independence, confidence, and gives you skills to adapts you to new challenges. This is essential for personal and professional success. This project challenges you to explore topics beyond what we covered in cs141, preparing you for concepts you’ll encounter in CS142.
 
 ---
 
 ## **Project Description**
+Social media refers to online platforms that enable users to create, share, and interact with content while connecting with others. The Underlying these platforms is a social media network. This network is represented as a graph where users are nodes and their connections (friendships, follows, or interactions) are edges. This structure facilitates information flow and community building.
 
-A social network graph is a representation where:
+Formally, a social network graph is a representation where:
 - **Nodes** represent persons in the network.
 - **Edges** represent friendships between persons.
 
@@ -27,7 +26,7 @@ A social network graph is a representation where:
 ---
 
 ## **Features**
-The program should allow the user to perform the following operations on the socail network graph:
+The program should allow the user to perform the following operations on the social network graph:
 
 ### **1. Load Graph from a File**
 - **Input file format:**  
@@ -187,6 +186,5 @@ After submission, each group will present a demo to the TA.
 ## **Grading Criteria**
 1. Presentation of all program features (60%)
 3. Code readability and comments (20%)
-4. Proper file handling and error management (10%)
-5. Creativity and extra features (10%)
-6. If you simply copy paste without understanding, your group will receive **ZERO** grade. 
+4. Proper file handling and error management (20%)
+5. If you simply copy paste without understanding, your group will receive **ZERO** grade. 
