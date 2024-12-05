@@ -12,7 +12,7 @@ This project will prepare you for cs142 and will helps you to apply key programm
 A social network graph is a representation where:
 - **Nodes** represent persons in the network.
 - **Edges** represent friendships between persons.
-![Can not read Image](images/
+![Can not read Image](images/social_network_example.jpg)
 The program should allow the user to perform the following operations on the graph:
 
 ---
