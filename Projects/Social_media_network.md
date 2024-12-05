@@ -1,9 +1,14 @@
 
-# **Project Title: Social Network Graph**
+# **Project: Social Network Graph**
+
+## **Due date**: 23-12-2024
 
 ## **Objective**
-To implement a program in C++ that models a simple social network as a graph. The graph is represented as an **adjacency matrix**. Students will use basic data structures (e.g. arrays, multi-dimensional arrays,  vectors, etc) and file I/O operations to manage and manipulate the graph. 
-This project will prepare you for cs142 and will helps you to apply key programming concepts like loops, conditionals, functions, and file handling.
+  - **Program with many features**: To implement a program in C++ that models a simple social network as a graph. The graph is represented as an **adjacency matrix**. Students will use basic data structures (e.g. arrays, multi-dimensional arrays,  vectors, Maps etc) and file I/O operations to manage and manipulate the graph.
+  - **CS142 Preparation**: This project will prepare you for CS142. Also, it will help you to deeply understand and apply key programming concepts such as loops, conditionals, functions, and file handling.
+  - **Group of 2**: You can choose to work on this project individually or in a group of two. Collaborating in a group allows you to share ideas, learn from each other, and solve problems more effectively. It also helps you develop teamwork skills, gain new perspectives, and achieve more than you could on your own.
+  - **Presentation**: You and your teammate will be required to present your work at the end of the project.
+  - **Self-learning**: Self-learning builds independence, confidence, and gives you skills to adapts you to new challenges. This is essential for personal and professional success. This project challenges you to explore topics beyond what we covered in cs141, preparing you for concepts you’ll encounter in CS142.
 
 ---
 
@@ -12,14 +17,19 @@ This project will prepare you for cs142 and will helps you to apply key programm
 A social network graph is a representation where:
 - **Nodes** represent persons in the network.
 - **Edges** represent friendships between persons.
+
+  
 ![Can not read Image](images/social_network_example.jpg)
-The program should allow the user to perform the following operations on the graph:
+
+
+
 
 ---
 
 ## **Features**
+The program should allow the user to perform the following operations on the socail network graph:
 
-### **0. Load Graph from a File**
+### **1. Load Graph from a File**
 - **Input file format:**  
   Each line represents a person and their friends in the format:
   ```
@@ -35,7 +45,7 @@ The program should allow the user to perform the following operations on the gra
 
 ---
 
-### **1. Print All Friends of Person X**
+### **2. Print All Friends of Person X**
 - The program should prompt the user for a person's name and display their list of friends.  
   **Example:**  
   - Input: `Alice`  
@@ -43,7 +53,7 @@ The program should allow the user to perform the following operations on the gra
 
 ---
 
-### **2. Add Friend to Person X**
+### **3. Add Friend to Person X**
 - The program should allow adding a new friend to an existing person.  
   **Example:**  
   - Input: `Alice, Dave`  
@@ -52,15 +62,16 @@ The program should allow the user to perform the following operations on the gra
 
 ---
 
-### **3. Add Person Y to Social Network**
-- Add a new person to the graph with no initial friends.  
+### **4. Add Person Y to Social Network**
+- Add a new person to the graph with no initial friends.
+- If person already exist, print "Person Already exists."
   **Example:**  
   - Input: `Eve`  
   - Output: `Eve added to the social network.`
 
 ---
 
-### **4. Print All Persons and Their Friends**
+### **5. Print All Persons and Their Friends**
 - Display the entire social network in the format:
   ```
   Alice: Bob, Charlie
@@ -70,7 +81,7 @@ The program should allow the user to perform the following operations on the gra
 
 ---
 
-### **5. Check if Person Z is a Common Friend of Person X and Person Y**
+### **6. Check if Person Z is a Common Friend of Person X and Person Y**
 - **Input:** `X, Y, Z`  
 - **Output:**  
   - `Yes, Z is a common friend.`  
@@ -79,7 +90,7 @@ The program should allow the user to perform the following operations on the gra
 
 ---
 
-### **6. Write Graph to an Output File**
+### **7. Write Graph to an Output File**
 - Save the current state of the graph to an output file in the same format as the input file.  
   **Example:**
   ```
@@ -136,38 +147,45 @@ Graph written to file successfully.
 
 ---
 
-## **Implementation Guidelines**
+## **Implementation Guidelines/Hints**
 
-1. **Data Structures:** Use a `std::map` or `std::unordered_map` where:
+1. **Map names to integers** Use a `std::map` to map names to integers:
    - Keys are `std::string` (person's name).
-   - Values are `std::vector<std::string>` (list of friends).
+   - Values are `int` row index of person in the adjacency matrix
+
+1. **Adjacency Matrix** Use a 2D `std::vector` of integers to represent the adjacency matrix:
+   - Row `i` represent person `i` friends list 
 
 2. **File Handling:**
    - Use `std::ifstream` and `std::ofstream` for reading and writing files.
-   - Handle errors like missing files or malformed input.
+   - Handle errors like missing files.
+   - Make sure to close files before existing the program.
 
 3. **Functions to Implement:**
-   - `void loadGraph(const std::string& fileName, std::map<std::string, std::vector<std::string>>& graph);`
-   - `void printFriends(const std::string& person, const std::map<std::string, std::vector<std::string>>& graph);`
-   - `void addFriend(const std::string& person, const std::string& friendName, std::map<std::string, std::vector<std::string>>& graph);`
-   - `void addPerson(const std::string& person, std::map<std::string, std::vector<std::string>>& graph);`
-   - `void printAll(const std::map<std::string, std::vector<std::string>>& graph);`
-   - `bool isCommonFriend(const std::string& person1, const std::string& person2, const std::string& commonFriend, const std::map<std::string, std::vector<std::string>>& graph);`
-   - `void writeGraph(const std::string& fileName, const std::map<std::string, std::vector<std::string>>& graph);`
-
-4. **Error Handling:**
-   - Check for invalid input (e.g., non-existent persons or malformed file).
-   - Ensure graph integrity (e.g., mutual friendships).
-
-5. **Code Style:**
+   - Implement a function for each option in the program.
+6. **Code Style:**
    - Write clean, modular code.
    - Comment your functions to describe their purpose.
+7. **Online Resources**
+   - You may use any online resource (youtube, geeksforgeeks.com, chatgpt, ... etc)
+   - Any resource you use must be reported in the final report. 
 
 ---
 
-## **Grading Criteria**
+## **Submissions**
+1. Each team must submit a single report:  
+   - **Page 1:** Clearly specify each member's contributions.  
+   - **Page 2:** List all references used for the project.  
+2. Submit the code implementation on Moodle.
 
-1. Correct implementation of features (60%)
-2. Code readability and comments (20%)
-3. Proper file handling and error management (10%)
-4. Creativity and extra features (10%)
+## **Presentation**
+After submission, each group will present a demo to the TA.  
+- You must thoroughly understand every part of your code.  
+- The TA will assess your understanding of each component and the rationale behind your implementation choices.  
+- Missing the presentation will result in a **ZERO** grade for the group.  
+
+## **Grading Criteria**
+1. Presentation (60%)
+3. Code readability and comments (20%)
+4. Proper file handling and error management (10%)
+5. Creativity and extra features (10%)
